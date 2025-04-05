@@ -7,8 +7,8 @@ api:
   port: 8080
   ssl:
     enabled: true
-    cert: /etc/letsencrypt/live/node.zeiofficial.sgp.dom.my.id/fullchain.pem
-    key: /etc/letsencrypt/live/node.zeiofficial.sgp.dom.my.id/privkey.pem
+    cert: /etc/letsencrypt/live/nodezeiofficial.sgp.dom.my.id/fullchain.pem
+    key: /etc/letsencrypt/live/nodezeiofficial.sgp.dom.my.id/privkey.pem
   upload_limit: 100
 system:
   data: /var/lib/pterodactyl/volumes
