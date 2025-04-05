@@ -1,0 +1,18 @@
+debug: false
+uuid: b41e0227-68bf-4600-b7f3-45eabdf7520d
+token_id: ocwfqXfzJGYREXHo
+token: gvV0BymePwdnKBUd8nrBXVkLlDrQvtByno8kKLhM2G1jrxJVFDN7aJeTXHGjJPpA
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/node.zeiofficial.sgp.dom.my.id/fullchain.pem
+    key: /etc/letsencrypt/live/node.zeiofficial.sgp.dom.my.id/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://zeiofficial.sgp.dom.my.id'
